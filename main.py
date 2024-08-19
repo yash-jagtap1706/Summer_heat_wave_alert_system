@@ -101,7 +101,7 @@ page_selected = st.sidebar.selectbox("Select page", ["Home", "Heat Wave Alert", 
 
 if page_selected == "Home":
     st.header("Heat Wave Alert System")
-    img_path = f"D:\\Projects\\Task_3\\asset\\home.jpg"
+    img_path = "asset/home.jpg"
     st.image(img_path, use_column_width=True)
     st.markdown("""
     # Welcome to the Heat Wave Alert System! 🌡️📱
